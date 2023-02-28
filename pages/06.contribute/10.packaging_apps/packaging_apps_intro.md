@@ -50,7 +50,7 @@ Over time, recurrent steps (such as installing dependencies with apt, or setting
 
 Various tools were implemented to test the app and standardize their behavior.
 
-After a while, a set of common practices and conventions emerged and is somewhat reflected and maintain in the `example_ynh` template application. While it is tempting for dev-oriented folks to change variable naming schemes or refactorize the structure of scripts, it turns out that it is even more important to stick to the common set of practices (even though arbitrary and not elegant) to ease the maintenance of all apps by any member of the packaging community accross all repos!
+After a while, a set of common practices and conventions emerged and is somewhat reflected and maintained in the `example_ynh` template application. While it is tempting for dev-oriented folks to change variable naming schemes or refactorize the structure of scripts, it turns out that it is even more important to stick to the common set of practices (even though arbitrary and not elegant) to ease the maintenance of all apps by any member of the packaging community accross all repos!
 
 Nevertheless, even though helpers existed, the inherent structure of apps was hard and boring to maintain with too many redundant pieces of code or filled with funky historical conventions. **A new v2 format** [has been designed and added to YunoHost 11.1 in early 2023](https://github.com/YunoHost/yunohost/pull/1289) in the hope to modernize and simplify app packaging and improve the UI/UX of YunoHost.
 
@@ -59,7 +59,7 @@ However, [**a future v3 format** has yet to come](https://github.com/YunoHost/is
 
 ## 4. General overview of a YunoHost app structure
 
-A YunoHost app consists in a Git repository. We encourage you to have a look at those code repository to get familiar witch app repository structures:
+A YunoHost app consists in a Git repository. We encourage you to have a look at those code repository to get familiar with app repository structures:
 - the [`helloworld_ynh`](https://github.com/YunoHost-Apps/helloworld_ynh) app 
 - the [`example_ynh`](https://github.com/YunoHost/example_ynh) app which illustrates all common features and recommended formatting
 - your favourite "real-life" app in the [YunoHost-Apps organization](https://github.com/orgs/YunoHost-Apps/repositories))
